@@ -6,6 +6,7 @@ body {
     position: static;
 }
 
+/* Navigation bars */
 #navlinks li a:hover{
     color: rgb(138, 55, 129);
 }
@@ -26,6 +27,7 @@ body {
     color: rgb(4, 47, 42);
 }
 
+/* Featured cards */
 .cards:hover {
     background-color: rgb(227, 226, 226);
     .card {
@@ -56,6 +58,40 @@ body {
     color: grey;
 }
 
+/* News section */
+.news {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.news:hover {
+    filter: opacity(0.8);
+}
+
+.news p {
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#news-link-general {
+    font-size: 12px;
+    filter: brightness(100%);
+    margin-bottom: 5px;
+}
+
+#news-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
 footer {
     background-color: rgb(231, 227, 227);
 }
