@@ -92,6 +92,23 @@ body {
     margin-bottom: 10px;
 }
 
+.news-carousel {
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    position: relative;
+    background-color: lightgrey;
+}
+
+.button-icon {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    width: 70px;
+}
+
 /* Footer */
 footer {
     background-color: rgb(231, 227, 227);
