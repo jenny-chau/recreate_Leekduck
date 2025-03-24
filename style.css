@@ -26,7 +26,14 @@ body {
     color: rgb(4, 47, 42);
 }
 
-.fa {
+.cards:hover {
+    background-color: rgb(227, 226, 226);
+    .card {
+        background-color: rgb(227, 226, 226);
+    }
+}
+
+.fa-solid {
     font-size: 42px;
     color: rgb(79, 79, 79);
     padding: 0px 0px 16px;
