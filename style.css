@@ -1,0 +1,62 @@
+body {
+    font-family: "Lato", "Open Sans", sans-serif;
+}
+
+.fixed-top, .fixed-bottom {
+    position: static;
+}
+
+#navlinks li a:hover{
+    color: rgb(138, 55, 129);
+}
+
+.nav-link {
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    color: rgb(4, 47, 42);
+    font-size: 30px;
+}
+
+.navbar-brand:hover {
+    color: rgb(4, 47, 42);
+}
+
+.fa {
+    font-size: 42px;
+    color: rgb(79, 79, 79);
+    padding: 0px 0px 16px;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 20px;
+    padding: 5px 0px;
+}
+
+.card-subtitle {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 14px;
+    color: grey;
+}
+
+footer {
+    background-color: rgb(231, 227, 227);
+}
+
+#footer-links a {
+    color: green;
+}
+
+.copyright {
+    font-size: 12px;
+}
