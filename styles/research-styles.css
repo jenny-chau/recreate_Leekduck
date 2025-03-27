@@ -1,3 +1,4 @@
+/* Header styling */
 .page-title {
     font-size: 60px;
     font-weight: bold;
@@ -12,6 +13,13 @@
     font-style: italic;
 }
 
+/* Accordion styling */
+#bug-out-2025 {
+    background-color: rgb(255, 237, 207);
+    padding: 20px;
+    border-radius: 15px;
+}
+
 .accordion h2 {
     background-color: orange;
     padding: 15px;
@@ -21,17 +29,22 @@
 }
 
 .accordion-button {
-    background-color: rgb(255, 237, 207);
+    background-color: rgb(251, 216, 155);
+    box-shadow: 1px 1px 2px lightgrey;
 }
 
 .accordion-button:focus {
-    background-color: rgb(255, 237, 207);
+    background-color: rgb(251, 216, 155);
     border-color: transparent;
     box-shadow: none;
 }
 
 .accordion-button:not(.collapsed) {
-    background-color: rgb(255, 237, 207);
+    background-color: rgb(251, 216, 155);
+}
+
+.accordion-body {
+    background-color: rgb(251, 247, 240);
 }
 
 .task-title {
