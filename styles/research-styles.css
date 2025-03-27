@@ -24,14 +24,14 @@
     background-color: rgb(255, 237, 207);
 }
 
-.accordion-collapse {
-    background-color: rgb(255, 247, 232);
-}
-
 .accordion-button:focus {
     background-color: rgb(255, 237, 207);
     border-color: transparent;
     box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(255, 237, 207);
 }
 
 .task-title {
