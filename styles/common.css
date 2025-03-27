@@ -96,7 +96,7 @@ body {
     overflow: scroll;
 }
 
-.news-carousel {
+#news-section {
     display: flex;
     flex-direction: row;
     align-items: stretch;
@@ -104,7 +104,12 @@ body {
 
 .carousel-control-prev, .carousel-control-next {
     position: relative;
-    background-color: lightgrey;
+    background-color: rgb(186, 186, 186);
+    z-index: 0;
+}
+
+.carousel-control-next:hover, .carousel-control-prev:hover {
+    opacity: 0.5;
 }
 
 .button-icon {
@@ -114,10 +119,10 @@ body {
     width: 70px;
 }
 
-.carousel {
-    display: flex;
-    flex-direction: column;
+.carousel-indicators {
+    margin-bottom: -2rem;
 }
+
 
 /* Footer */
 footer {
