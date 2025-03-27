@@ -1,0 +1,66 @@
+.page-title {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.updated-date {
+    font-size: 18px;
+}
+
+.description {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.accordion h2 {
+    background-color: orange;
+    padding: 15px;
+    border-radius: 20px 20px 10px 10px;
+    color: white;
+    font-size: 24px;
+}
+
+.accordion-button {
+    background-color: rgb(255, 237, 207);
+}
+
+.accordion-collapse {
+    background-color: rgb(255, 247, 232);
+}
+
+.accordion-button:focus {
+    background-color: rgb(255, 237, 207);
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.task-title {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+}
+
+.bug-out-2025-images {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border-top: dotted 1px orange;
+}
+
+.bug-out-2025-images img {
+    border: 2px solid orange;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 227, 174);
+    object-fit: scale-down;
+}
+
+.bug-out-2025-images p {
+    align-self: center;
+    font-size: 24px;
+    padding-left: 20px;
+    font-weight: 500;
+    margin: 0;
+    overflow: scroll;
+}
