@@ -41,33 +41,171 @@
         </header>
 
         <!-- Main content of page -->
-        <section class="container mt-5 content">
-            <div class="col-md-6">
-                <div class="accordion" id="bug-out-2025">
-                    <h2>Bug Out 2025 Tasks</h2>
-                    <div class="accordion-item">
-                        <h3 class="accordion-header">
-                            <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#first-bug-task">
-                                <p class="task-title">Catch 15 Pokémon</p>
-                            </button>
-                        </h3>
-                        <div id="first-bug-task" class="accordion-collapse collapse">
-                            <div class="accordion-body">
-                                <div class="task-pokemon-images">
+        <section class="container mt-5">
+            <div class="row">
+                <!-- Bug Research tasks -->
+                <div class="col-md-6 mt-3">
+                    <div class="accordion" id="bug-out-2025">
+                        <p class="bug-section-title">Bug Out 2025 Tasks</h2>
+                        <article class="accordion-item accordion-item-bug">
+                            <p class="accordion-header">
+                                <button type="button" class="accordion-button accordion-button-bug" data-bs-toggle="collapse" data-bs-target="#first-bug-task">
+                                    <p class="task-title">Catch 15 Pokémon</p>
+                                </button>
+                            </p>
+                            <div id="first-bug-task" class="accordion-collapse collapse">
+                                <div class="accordion-body accordion-body-bug">
+                                    <p class="potential-rewards-text">Potential Rewards</p>
                                     <div class="bug-out-2025-images">
                                         <img src="../static/research_images/wurmple.webp" alt="wurmple">
                                         <p class="pokemon-name">Wurmple</p>
                                     </div>
                                     <div class="bug-out-2025-images">
-                                        <img class="bug-out-2025-images" src="../static/research_images/venipede.webp" alt="venipede">
+                                        <img src="../static/research_images/venipede.webp" alt="venipede">
                                         <p class="pokemon-name">Venipede</p>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </article>
+
+                        <article class="accordion-item accordion-item-bug">
+                            <p class="accordion-header">
+                                <button type="button" class="accordion-button accordion-button-bug" data-bs-toggle="collapse" data-bs-target="#second-bug-task">
+                                    <p class="task-title">Catch 20 Pokémon</p>
+                                </button>
+                            </p>
+                            <div id="second-bug-task" class="accordion-collapse collapse">
+                                <div class="accordion-body accordion-body-bug">
+                                    <p class="potential-rewards-text">Potential Rewards</p>
+                                    <div class="bug-out-2025-images">
+                                        <img src="../static/research_images/paranas.webp" alt="paras">
+                                        <p class="pokemon-name">Paras</p>
+                                    </div>
+                                    <div class="bug-out-2025-images">
+                                        <img src="../static/research_images/honeycomb.webp" alt="combee">
+                                        <p class="pokemon-name">Combee</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="accordion-item accordion-item-bug">
+                            <p class="accordion-header">
+                                <button type="button" class="accordion-button accordion-button-bug" data-bs-toggle="collapse" data-bs-target="#third-bug-task">
+                                    <p class="task-title">Catch 25 Pokémon</p>
+                                </button>
+                            </p>
+                            <div id="third-bug-task" class="accordion-collapse collapse">
+                                <div class="accordion-body accordion-body-bug">
+                                    <p class="potential-rewards-text">Potential Rewards</p>
+                                    <div class="bug-out-2025-images">
+                                        <img src="../static/research_images/centipede.webp" alt="Sizzlipede">
+                                        <p class="pokemon-name">Sizzlipede</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
                     </div>
-                </div>
-            </div> 
+                </div> 
+            
+                <!-- Catching research tasks -->
+                <div class="col-md-6 mt-3">
+                    <div class="accordion" id="catching-out-2025">
+                        <p class="catching-section-title">Catching Tasks</h2>
+                        <article class="accordion-item accordion-item-catching">
+                            <p class="accordion-header">
+                                <button type="button" class="accordion-button accordion-button-catching" data-bs-toggle="collapse" data-bs-target="#first-catching-task">
+                                    <p class="task-title">Catch 7 Pokémon</p>
+                                </button>
+                            </p>
+                            <div id="first-catching-task" class="accordion-collapse collapse">
+                                <div class="accordion-body accordion-body-catching">
+                                    <p class="potential-rewards-text">Potential Rewards</p>
+                                    <div class="catching-out-2025-images">
+                                        <img src="../static/research_images/magikarp.webp" alt="magikarp">
+                                        <p class="pokemon-name">Magiparp</p>
+                                    </div>
+                                    <div class="catching-out-2025-images">
+                                        <img src="../static/research_images/stuffle.webp" alt="Stufful">
+                                        <p class="pokemon-name">Stufful</p>
+                                    </div>
+                                    <div class="catching-out-2025-images">
+                                        <img src="../static/research_images/wimpod.webp" alt="wimpod">
+                                        <p class="pokemon-name">Wimpod</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="accordion-item accordion-item-catching">
+                            <p class="accordion-header">
+                                <button type="button" class="accordion-button accordion-button-catching" data-bs-toggle="collapse" data-bs-target="#second-catching-task">
+                                    <p class="task-title">Catch a Dragon-type Pokémon</p>
+                                </button>
+                            </p>
+                            <div id="second-catching-task" class="accordion-collapse collapse">
+                                <div class="accordion-body accordion-body-catching">
+                                    <p class="potential-rewards-text">Potential Rewards</p>
+                                    <div class="catching-out-2025-images">
+                                        <img src="../static/research_images/dratini.webp" alt="dratini">
+                                        <p class="pokemon-name">Dratini</p>
+                                    </div>
+                                    <div class="catching-out-2025-images">
+                                        <img src="../static/research_images/bagon.webp" alt="bagon">
+                                        <p class="pokemon-name">Bagon</p>
+                                    </div>
+                                    <div class="catching-out-2025-images">
+                                        <img src="../static/research_images/axew.webp" alt="axew">
+                                        <p class="pokemon-name">Axew</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="accordion-item accordion-item-catching">
+                            <p class="accordion-header">
+                                <button type="button" class="accordion-button accordion-button-catching" data-bs-toggle="collapse" data-bs-target="#third-catching-task">
+                                    <p class="task-title">Catch 10 Normal-type Pokémon</p>
+                                </button>
+                            </p>
+                            <div id="third-catching-task" class="accordion-collapse collapse">
+                                <div class="accordion-body accordion-body-catching">
+                                    <p class="potential-rewards-text">Potential Rewards</p>
+                                    <div class="catching-out-2025-images">
+                                        <img src="../static/research_images/Pidgeot Mega Energy.png" alt="Pidgeot Mega Energy">
+                                        <p class="pokemon-name">Pidgeot Mega Energy</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="accordion-item accordion-item-catching">
+                            <p class="accordion-header">
+                                <button type="button" class="accordion-button accordion-button-catching" data-bs-toggle="collapse" data-bs-target="#fourth-catching-task">
+                                    <p class="task-title">Catch 10 Fire-type Pokémon</p>
+                                </button>
+                            </p>
+                            <div id="fourth-catching-task" class="accordion-collapse collapse">
+                                <div class="accordion-body accordion-body-catching">
+                                    <p class="potential-rewards-text">Potential Rewards</p>
+                                    <div class="catching-out-2025-images">
+                                        <img src="../static/research_images/Blaziken Mega Energy.png" alt="Blaziken Mega Energy">
+                                        <p class="pokemon-name">Blaziken Mega Energy</p>
+                                    </div>
+                                    <div class="catching-out-2025-images">
+                                        <img src="../static/research_images/Charizard Mega Energy.png" alt="Charizard Mega Energy">
+                                        <p class="pokemon-name">Charizard Mega Energy</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+
+                    </div>
+                </div> 
+
+            </div>
         </section>
     </main>
 
