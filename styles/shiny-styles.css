@@ -1,0 +1,30 @@
+header {
+    background-color: rgb(42, 159, 159);
+    padding: 30px;
+}
+
+.page-title {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    color: white;
+}
+
+fieldset legend {
+    font-size: 24px;
+}
+
+.col-form-label {
+    font-size: 20px;
+    padding: 0;
+}
+
+form button:hover {
+    transform: 1.1;
+}
