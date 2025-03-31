@@ -33,33 +33,81 @@
             <h2 class="page-title">&#x2728; Shiny Checklist</h2>
 
             <!-- Form with text and email inputs -->
-            <div class="col-6 form-container m-3">
+            <section class="col-md-6 header-section m-3">
                 <form action="#" method="POST">
                     <fieldset class="border p-3 shadow-sm">
                         <legend class="mb-3">Enter your name and email to receive a link to your saved Shiny list:</legend>
                         <div class="row m-3">
                             <label for="name" class="col-2 col-form-label text-end mr-1">Name: </label>
-                            <div class="col-lg-4 mb-3">
+                            <div class="col-xl-4 mb-3">
                                 <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
                             </div>
 
                             <label for="email" class="col-2 col-form-label text-end mr-1">Email: </label>
-                            <div class="col-lg-4 mb-3">
+                            <div class="col-xl-4 mb-3">
                                 <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
                             </div>
                         </div>
-                        <button type="submit" value="submit" class="btn btn-light justify-self-end form-control shadow-sm">Submit</button>
+                        <button type="submit" value="submit" class="btn btn-light text-dark form-control shadow-sm">Submit</button>
                     </fieldset>
                 </form>
-            </div>
+            </section>
 
             <!-- Counter -->
+            <div class="m-3">
+                <div class="counter-section mx-5">
+                    <div class="counter">
+                        <p class="counter-number" id="owns-number">0</p>
+                        <p class="counter-name" id="owns-name">Owns</p>
+                    </div>
+                    <p class="slash">/</p>
 
+                    <div class="counter">
+                        <p class="counter-number" id="registered-number">0</p>
+                        <p class="counter-name" id="registered-name">Registered</p>
+                    </div>
+                    <p class="slash">/</p>
+
+                    <div class="counter">
+                        <p class="counter-number" id="released-number">1290</p>
+                        <p class="counter-name" id="released-name">Released</p>
+                    </div>
+                </div>
+            </div>
         </header>
 
         <!-- Section with table of shiny pokemon -->
-        <section class="container mt-5">
+        <section class="mt-5 mx-3">
+            <div class="shiny-group">
+                <article class="shiny-pokemon new-shiny-group" style="background-image: url(../static/shiny_images/pokemon_icon_001_00_shiny.png);">
+                    <p class="pokemon-shiny-name">Bulbasaur</p>
+                </article>
 
+                <article class="shiny-pokemon" style="background-image: url(../static/shiny_images/Ivysaur.png);">
+                    <p class="pokemon-shiny-name">Ivysaur</p>
+                </article>
+
+                <article class="shiny-pokemon" style="background-image: url(../static/shiny_images/Venasaur.png);">
+                    <p class="pokemon-shiny-name">Venusaur</p>
+                </article>
+
+                <article class="shiny-pokemon" style="background-image: url(../static/shiny_images/Venusaur_M.png);">
+                    <p class="pokemon-shiny-name">Venusaur (M)</p>
+                </article>
+
+                <article class="shiny-pokemon new-shiny-group" style="background-image: url(../static/shiny_images/bulbasaur_helmet.png);">
+                    <p class="pokemon-shiny-name">Bulbasaur</p>
+                </article>
+
+                <article class="shiny-pokemon new-shiny-group" style="background-image: url(../static/shiny_images/bulbasaur_bday.png);">
+                    <p class="pokemon-shiny-name">Bulbasaur</p>
+                </article>
+
+                <article class="shiny-pokemon new-shiny-group" style="background-image: url(../static/shiny_images/bulbasaur_pika.png);">
+                    <p class="pokemon-shiny-name">Bulbasaur</p>
+                </article>
+                
+            </div>
         </section>
     </main>
 

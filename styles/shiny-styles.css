@@ -9,7 +9,7 @@ header {
     text-align: center;
 }
 
-.form-container {
+.header-section {
     display: flex;
     justify-self: center;
     justify-content: center;
@@ -25,6 +25,87 @@ fieldset legend {
     padding: 0;
 }
 
-form button:hover {
-    transform: 1.1;
+.counter-number {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.counter-name {
+    font-size: 24px;
+}
+
+.slash {
+    font-size: 36px;
+    text-align: center;
+    align-self: center;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.counter p {
+    text-align: center;
+}
+
+.counter-section {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .slash {
+        display: none;
+    }
+
+    .counter-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .counter {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .counter-name {
+        margin-left: 15px;
+    }
+}
+
+.shiny-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.shiny-pokemon {
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    background-position: bottom left;
+    background-position-y: -30px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.new-shiny-group {
+    
+}
+
+.shiny-pokemon:hover {
+    transform: scale(1.05);
+}
+
+.pokemon-shiny-name {
+    font-size: 24px;
+    color: rgb(92, 91, 91);
 }
