@@ -27,6 +27,20 @@ body {
     color: rgb(4, 47, 42);
 }
 
+/* Header */
+.page-title {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.updated-date {
+    font-size: 18px;
+}
+
+.description {
+    font-size: 24px;
+}
+
 /* Footer */
 footer {
     background-color: rgb(231, 227, 227);
