@@ -98,14 +98,26 @@ fieldset legend {
 }
 
 .new-shiny-group {
-    
+    margin-left: 40px;
 }
 
 .shiny-pokemon:hover {
     transform: scale(1.05);
+    background-color: rgb(255, 245, 226);
+}
+
+.shiny-pokemon:hover .pokemon-evolution {
+    visibility: visible;
 }
 
 .pokemon-shiny-name {
     font-size: 24px;
     color: rgb(92, 91, 91);
+    margin: 0;
+}
+
+.pokemon-evolution {
+    visibility: hidden;
+    color: rgb(175, 175, 175);
+    font-size: 16px;
 }
