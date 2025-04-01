@@ -82,6 +82,7 @@ fieldset legend {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .shiny-pokemon {
@@ -93,7 +94,7 @@ fieldset legend {
     background-position: bottom left;
     background-position-y: -30px;
     padding: 10px;
-    margin: 5px;
+    margin: 20px 5px;
 }
 
 .new-shiny-group {
