@@ -114,6 +114,7 @@ fieldset legend {
     font-size: 24px;
     color: rgb(92, 91, 91);
     margin: 0;
+    background-color: rgb(255, 255, 255, 0.5);
 }
 
 .pokemon-evolution {
