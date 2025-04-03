@@ -1,6 +1,7 @@
 
 // For the Shiny page, when the shiny pokemon are clicked, the border color changes in a cycle (grey, green, red, blue)
 // The function takes the id of the element as a parameter, so it can be used for different elements.
+// Already functional on the website.
 let btnCounter = 0;
 let currentBorderColor = "";
 let element;

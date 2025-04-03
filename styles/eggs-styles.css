@@ -30,6 +30,7 @@ td {
     align-content: center;
 }
 
+/* Media queries for different size screens */
 @media screen and (max-width: 1200px) {
     .pokemon-name, .pokemon-cp {
         font-size: 20px;
