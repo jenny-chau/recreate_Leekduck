@@ -1,6 +1,6 @@
-Recreate Leekduck website
+Recreate Leek Duck website
 
-Leekduck is a website all about Pokemon Go. It has information about the pokemon you could collect (including shiny pokemon), and information about the most recent news, events, research objectives, rewards, etc.
+Leek Duck is a website all about Pokemon Go. It has information about the pokemon you could collect (including shiny pokemon), and information about the most recent news, events, research objectives, rewards, etc.
 
 This project recreates a few of the pages of Leek Duck including the Home, Shiny, Research, and Egg pages using HTML, CSS, Bootstrap, and javascript (some functions not integrated into the website yet).
 
