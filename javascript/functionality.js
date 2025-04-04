@@ -49,8 +49,8 @@ function btnClicked (elementId) {
     return;
 }
 
-// Update the counter on the Shiny page. Related to the btnClicked() function. 
-// The function takes in an 'update' string parameter to either increase or decrease the counter.
+// Update the counter on the Shiny page. Related to the btnClicked(...) function. 
+// The function takes in a string parameter to either increase or decrease the counter.
 let num;
 
 function updateOwnedCounter(update) {
@@ -100,7 +100,7 @@ function emailValidation (name, email) {
     }
 }
 
-// Takes an array of strings and searches for empty strings "". 
+// Takes an array of strings and searches for empty strings ""
 // Returns true is empty string is found. 
 // False if array does not contain empty strings.
 function hasEmptyString(arr) {
@@ -112,7 +112,7 @@ function hasEmptyString(arr) {
     return false;
 }
 
-// Add name and email to database
+// Add name and email to array database
 let nameDatabase = [];
 let emailDatabase = [];
 
@@ -122,7 +122,7 @@ function addToDatabase(name, email) {
     return;
 }
 
-// Test emailValidation function and print in console
+// Test emailValidation(...) and print in console
 console.log(emailValidation("Wasabi", "n@g.c"));
 console.log(emailValidation("Wasabi2", "wasabi@gmail.com"));
 console.log(emailValidation("Wasabi3", "wasabi@gmai.lcom"));
