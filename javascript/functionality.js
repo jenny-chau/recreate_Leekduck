@@ -87,15 +87,13 @@ let emailUsername;
 let domainName;
 
 function emailValidation (name, email) {
-    if (email.includes("@") && email.includes(".")) { // Check for presence of @ and .
-        if (email.lastIndexOf(".") > email.lastIndexOf("@")) { // Check correct order of @ and .
+    if (email.lastIndexOf(".") > email.lastIndexOf("@")) { // Check for presence of @ and ., and checks for correct order of symbols
             emailUsername = email.split("@");
             domainName = emailUsername[emailUsername.length - 1].split(".");
             if (!hasEmptyString(emailUsername) && !hasEmptyString(domainName)) { // Check that email contains corrent parts (username, domain name). No invalid emails like @.
                 addToDatabase(name, email);
                 return true;
             }
-        }
         return false;
     } else {
         return false;
@@ -118,13 +116,13 @@ function hasEmptyString(arr) {
 let nameDatabase = [];
 let emailDatabase = [];
 
-function addToDatabase (name, email) {
+function addToDatabase(name, email) {
     nameDatabase.push(name);
     emailDatabase.push(email);
     return;
 }
 
-
+// Test emailValidation function and print in console
 console.log(emailValidation("Wasabi", "n@g.c"));
 console.log(emailValidation("Wasabi2", "wasabi@gmail.com"));
 console.log(emailValidation("Wasabi3", "wasabi@gmai.lcom"));
